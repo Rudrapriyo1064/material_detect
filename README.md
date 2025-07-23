@@ -4,27 +4,6 @@ This project performs **object detection** using YOLOv8 and **material classific
 
 ---
 
-## 📁 Directory Structure
-
-material_detect/
-├── main.py # Main script to run detection + classification
-├── config.py # Configuration variables
-├── utils/
-│ ├── detector.py # YOLOv8 object detector
-│ └── classifier.py # Material classifier using TensorFlow
-├── models/
-│ ├── yolov8n.pt # YOLOv8n pretrained weights
-│ └── material_classifier/
-│ ├── model.h5 # Trained material classifier model
-│ └── labels.txt # Labels used in classification
-├── data/
-│ ├── samples/ # Sample input images
-  └── outputs/ # Output images with annotations
-
-yaml
-Copy
-Edit
-
 ---
 
 ## 🚀 Features
